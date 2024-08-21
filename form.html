@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>
+            ALT SCHOOL ASSIGNMENT 2A
+        </h1>
+        <hr>
+        <h2>
+            Nwakwuo Miradell <br>Student at Alt School Africa, Karatu 2024<br> Student ID: ALT/SOE/024/0341
+        </h2>
+        <hr>
+
+    </header>
+
+    <main>
+        <h1>Signup</h1>
+        <p class="p1">Take the next steps to apply to AltSchool Africa</p>
+
+        <form action="">
+            <section class="section1">
+                <label for="firstname">First Name</label>
+                <input type="text" id="firstname" name="firstname" placeholder="Enter first name">
+
+                <label for="lastname">Last Name</label>
+                <input type="text" id="lastname" name="lastname" placeholder="Enter last name">
+            </section>
+
+            <section class="section2">
+                <label for="gender">Gender</label>
+                <select name="gender" id="gender" class="select1">
+                    <option value="1">Select gender</option>
+                    <option value="2">Male</option>
+                    <option value="3">Female</option>
+                </select>
+
+                <label for="date">Date of Birth</label>
+                <input type="date" id="date">
+            </section>
+
+            <section class="section3">
+                <label for="email" class="label3a">Email Address</label><br>
+                <input type="email" id="email" placeholder="Enter email address" class="input3a">
+
+                <label for="phonenumber" class="label3b">Phone Number</label>
+                <input type="tel" id="phonenumber" placeholder="08123456789" min="11" max="11" class="input3b">
+            </section>
+
+            <section class="section4">
+                <label for="country" class="label4a">Country</label>
+                <select name="country" id="country" class="select2">
+                    <option value="1">Select your country</option>
+                    <option value="2">Nigeria</option>
+                    <option value="3">South Africa</option>
+                    <option value="4">Ghana</option>
+                    <option value="5">Kenya</option>
+                </select>
+
+                <label for="text" class="label4b">State/City of Residence</label>
+                <input type="text" id="text" name="text" placeholder="Enter your state of residence" class="input4b">
+            </section>
+
+            <section class="section5">
+                <label for="selectchannel">How did you hear about us </label><br>
+                <select name="channel" id="selectchannel" class="select3">
+                    <option value="1">Select channel</option>
+                    <option value="2">LinkedIn</option>
+                    <option value="3">Twitter</option>
+                    <option value="4">Instagram</option>
+                </select>
+            </section>
+
+            <section class="section6">
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Enter paasword" class="input6a">
+
+                <label for="confirmpassword" class="label6b">Confirm Password</label>
+                <input type="password" id="confirmpassword" placeholder="Enter paasword again" class="input6b">
+            </section>
+
+            <nav>
+                <p class="p2">By clicking continue, l agree to <a href="">Terms of Use</a> and acknowledge that I
+                    have read the <a href="">Privacy Policy</a>, <a href="index.html">return to bio</a></p>
+            </nav>
+
+            <button>Submit</button>
+
+        </form>
+    </main>
+
+    <style>
+        body {
+            margin-top: 5%;
+            margin-left: 4%;
+        }
+
+        header {
+            margin-bottom: 8%;
+        }
+
+        h1 {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        label {
+            font-size: x-large;
+            color: rgb(68, 68, 68);
+        }
+
+        input {
+            width: 25%;
+            line-height: 500%;
+            border-radius: 8px;
+            background-color: rgb(248, 246, 250);
+            border-color: rgb(248, 246, 250);
+            border: none;
+        }
+
+        select {
+            border-radius: 8px;
+            background-color: rgb(248, 246, 250);
+            border-color: rgb(248, 246, 250);
+            border: none;
+        }
+
+        input:hover {
+            border-color: rgb(9, 176, 226);
+        }
+
+        select:hover {
+            border-color: rgb(9, 176, 226);
+        }
+
+        .select1 {
+            width: 26%;
+            height: 65px;
+        }
+
+        .p2 {
+            margin-top: 7%;
+        }
+
+        /* SECTION 6 */
+
+        .section6 {
+            margin-top: 1%;
+        }
+
+        .input6a {
+            position: absolute;
+            display: flex;
+        }
+
+        .label6b {
+            margin-left: 23%;
+        }
+
+        .input6b {
+            position: absolute;
+            display: flex;
+            margin-left: 28%;
+        }
+
+        /* SECTTION 5 */
+
+        .section5 {
+            margin-top: 5%;
+        }
+
+        .select3 {
+            width: 55.8%;
+            height: 65px;
+        }
+
+        /* SECTION 4 */
+
+        .section4 {
+            margin-top: 5%;
+        }
+
+        .select2 {
+            width: 26%;
+            height: 65px;
+            position: absolute;
+            display: flex;
+        }
+
+        .label4b {
+            margin-left: 24%;
+        }
+
+        .input4b {
+            position: absolute;
+            display: flex;
+            margin-left: 28%;
+        }
+
+        /* SECTION 3 */
+
+        .section3 {
+            margin-top: 15%;
+        }
+
+        .input3a {
+            position: absolute;
+        }
+
+        .label3b {
+            margin-left: 35%;
+        }
+    </style>
+
+</body>
+
+
+</html>
